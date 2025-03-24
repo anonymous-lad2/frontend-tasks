@@ -1,72 +1,72 @@
 [
     {
-        "logo": "logo-devlens.svg",
+        "logo": "/static/media/logo-devlens.fabff81c65f6c2de5590bc9d7d8e667a.svg",
         "name": "DevLens",
         "description": "Quickly inspect page layouts and visualize element boundaries.",
         "isActive": true
     },
     {
-        "logo": "./assets/images/logo-style-spy.svg",
+        "logo": "/static/media/logo-style-spy.9422f4e4b4ea5b34b4c68911664647b9.svg",
         "name": "StyleSpy",
         "description": "Instantly analyze and copy CSS from any webpage element.",
         "isActive": true
     },
     {
-        "logo": "./assets/images/logo-speed-boost.svg",
+        "logo": "/static/media/logo-speed-boost.cd7881271a67900b5609a097bf062d32.svg",
         "name": "SpeedBoost",
         "description": "Optimizes browser resource usage to accelerate page loading.",
         "isActive": false
     },
     {
-        "logo": "./assets/images/logo-json-wizard.svg",
+        "logo": "/static/media/logo-speed-boost.cd7881271a67900b5609a097bf062d32.svg",
         "name": "JSONWizard",
         "description": "Formats, validates, and prettifies JSON responses in-browser.",
         "isActive": true
     },
     {
-        "logo": "./assets/images/logo-tab-master-pro.svg",
+        "logo": "/static/media/logo-tab-master-pro.f9aa72a44199e67057e832010596baf1.svg",
         "name": "TabMaster Pro",
         "description": "Organizes browser tabs into groups and sessions.",
         "isActive": true
     },
     {
-        "logo": "./assets/images/logo-viewport-buddy.svg",
+        "logo": "/static/media/logo-viewport-buddy.a27048f87a8544067ab5c1c458d3ea8f.svg",
         "name": "ViewportBuddy",
         "description": "Simulates various screen resolutions directly within the browser.",
         "isActive": false
     },
     {
-        "logo": "./assets/images/logo-markup-notes.svg",
+        "logo": "/static/media/logo-markup-notes.654a0c7160cee9e059bfe37331d0dde5.svg",
         "name": "Markup Notes",
         "description": "Enables annotation and notes directly onto webpages for collaborative debugging.",
         "isActive": true
     },
     {
-        "logo": "./assets/images/logo-grid-guides.svg",
+        "logo": "/static/media/logo-grid-guides.efbdbe578bb9e1c4e068f52a4cc6a825.svg",
         "name": "GridGuides",
         "description": "Overlay customizable grids and alignment guides on any webpage.",
         "isActive": false
     },
     {
-        "logo": "./assets/images/logo-palette-picker.svg",
+        "logo": "/static/media/logo-palette-picker.f349e65e1836742dbc114ee2a272be95.svg",
         "name": "Palette Picker",
         "description": "Instantly extracts color palettes from any webpage.",
         "isActive": true
     },
     {
-        "logo": "./assets/images/logo-link-checker.svg",
+        "logo": "/static/media/logo-link-checker.c34bd1554952c7582957a262126b5a7a.svg",
         "name": "LinkChecker",
         "description": "Scans and highlights broken links on any page.",
         "isActive": true
     },
     {
-        "logo": "./assets/images/logo-dom-snapshot.svg",
+        "logo": "/static/media/logo-dom-snapshot.0b7ac155b6337d85db7aa43cd756cd44.svg",
         "name": "DOM Snapshot",
         "description": "Capture and export DOM structures quickly.",
         "isActive": false
     },
     {
-        "logo": "./assets/images/logo-console-plus.svg",
+        "logo": "/static/media/logo-console-plus.ed5c162bcb3e3b54296c4fa281be66f4.svg",
         "name": "ConsolePlus",
         "description": "Enhanced developer console with advanced filtering and logging.",
         "isActive": true

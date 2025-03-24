@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export const Card = ({ img, name, desc, isActive: initialActive }) => {
+export const Card = ({ img, name, desc, isActive: initialActive, onRemove }) => {
   const [isActive, setIsActive] = useState(initialActive);
 
   return (
@@ -15,11 +15,13 @@ export const Card = ({ img, name, desc, isActive: initialActive }) => {
 
       <div className="flex justify-between items-center">
         {/* Remove Button */}
-        <button className="bg-red-500 text-white px-4 py-2 rounded-md">
+        <button
+          className="bg-red-500 text-white px-4 py-2 rounded-md"
+          onClick={() => onRemove(name)}
+        >
           Remove
         </button>
 
-        {/* Toggle Button */}
         <button
           onClick={() => setIsActive(!isActive)}
           className={`w-12 h-6 flex items-center rounded-full p-1 cursor-pointer transition duration-300 ${
