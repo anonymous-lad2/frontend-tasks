@@ -10,9 +10,11 @@ export const Navbar = ({darkMode, setDarkMode}) => {
             <img src={logo} alt="logo" />
         </div>
 
-        <button onClick={() => setDarkMode(!darkMode)}>
-            {darkMode ? <img src={sun} alt="sun" /> : <img src={moon} alt="moon" />}
-        </button>
+        <div className='flex items-center bg-gray-300 dark:bg-gray-700 rounded p-3'>
+            <button onClick={() => setDarkMode(!darkMode)}>
+                {darkMode ? <img src={sun} alt="sun" /> : <img src={moon} alt="moon" />}
+            </button>
+        </div>
     </div>
   )
 }

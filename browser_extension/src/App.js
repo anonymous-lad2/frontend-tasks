@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Navbar } from "./components/Navbar";
+import { Extensions } from "./components/Extensions";
 
 function App() {
   const [darkMode, setDarkMode] = useState(
@@ -19,6 +20,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white">
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode}/>
+      <Extensions />
     </div>
   );
 }
